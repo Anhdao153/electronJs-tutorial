@@ -1,0 +1,170 @@
+/* html,
+body {
+    height: 100%;
+}
+
+body {
+    font: caption;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+}
+
+button {
+    background: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+}
+
+input {
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding: 0 10px;
+}
+
+input::placeholder {
+    color: lightgray;
+}
+
+header {
+    background: lightgray;
+    display: flex;
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid silver;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+#show-modal {
+    padding: 0px 12px 5px;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+#search {
+    flex-grow: 1;
+}
+
+main {
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+#no-items {
+    font-weight: bold;
+    color: silver;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    z-index: -1;
+}
+
+#modal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    display: none;
+}
+
+#url {
+    flex-grow: 1;
+    width: 100%;
+    margin: 0 25px 15px;
+    padding: 10px;
+}
+
+#modal button {
+    padding: 10px;
+}
+
+#close-modal {
+    background: white;
+    color: black;
+    margin-left: 15px;
+}
+
+#add-item {
+    margin-left: 25px;
+}
+
+.read-item {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    border-bottom: lightgray 2px solid;
+    background: #FAFAFA;
+    padding: 10px;
+}
+
+.read-item img {
+    width: 70px;
+    margin-right: 20px;
+} */
+.father {
+    overflow: hidden;
+    max-width: 1456px;
+    /* max: 881px; */
+    width: 100%;
+    height: 881px;
+}
+
+.menu-app {
+    position: absolute;
+    width: 25%;
+    height: 70%;
+    left: 0px;
+    top: 0px;
+
+    background: #10141F;
+}
+
+.menu-background {
+    position: absolute;
+    width: 1119px;
+    height: 357px;
+    left: 337px;
+    top: 0px;
+    background: #1245d3;
+    /* background: url(.jpg); */
+}
+
+.song-background {
+    position: absolute;
+    width: 337px;
+    height: 277px;
+    left: 0px;
+    top: 456px;
+
+    background: #572464;
+}
+
+.song-task-bar {
+    position: absolute;
+    width: 1456px;
+    height: 148px;
+    left: 0px;
+    top: 733px;
+
+    background: #233d20;
+}
+
+.small-image {
+    position: absolute;
+    width: 198px;
+    height: 201px;
+    left: 394px;
+    top: 116px;
+    background: #1dd009e3;
+    /* background: url(.jpg), #C4C4C4; */
+    border-radius: 12px;
+}
