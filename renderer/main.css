@@ -59,13 +59,11 @@ main {
     color: silver;
     text-align: center;
     width: 100%;
-    position: absolute;
     top: 100px;
     z-index: -1;
 }
 
 #modal {
-    position: absolute;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.85);
@@ -111,25 +109,34 @@ main {
     margin-right: 20px;
 } */
 .father {
+    position: relative;
+    background-color: red;
     overflow: hidden;
-    max-width: 1456px;
     /* max: 881px; */
     width: 100%;
     height: 881px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
 }
 
-.menu-app {
-    position: absolute;
+.menu-app { 
     width: 25%;
     height: 70%;
-    left: 0px;
-    top: 0px;
+    margin: 0 20px;
+    color: #fff;
+    /* position: fixed; */
+    /* right: 0; */
+    /* top: 0;
+    left: 0; */
+    /* left: 0px;
+    top: 0px; */
 
     background: #10141F;
 }
 
 .menu-background {
-    position: absolute;
     width: 1119px;
     height: 357px;
     left: 337px;
@@ -139,7 +146,6 @@ main {
 }
 
 .song-background {
-    position: absolute;
     width: 337px;
     height: 277px;
     left: 0px;
@@ -149,7 +155,6 @@ main {
 }
 
 .song-task-bar {
-    position: absolute;
     width: 1456px;
     height: 148px;
     left: 0px;
@@ -159,7 +164,6 @@ main {
 }
 
 .small-image {
-    position: absolute;
     width: 198px;
     height: 201px;
     left: 394px;
