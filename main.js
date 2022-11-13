@@ -55,6 +55,7 @@ const createWindow = () => {
     minHeight: 300,
     // frame: true,
     // titleBarStyle: 'hidden',
+    // frame: false,
     webPreferences: {
       contextIsolation: false,
       // preload: path.join(__dirname, 'preload.js'),
