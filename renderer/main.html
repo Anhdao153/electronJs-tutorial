@@ -11,56 +11,31 @@
 </head>
 
 <body>
-
-  <!-- <button id="show-modal">+</button>
-    <input type="text" id="search" placeholder="Search"> -->
-  <!-- <div class="menu-header"></div> -->
-
-  <!-- 
-  <main>
-    <p id="no-items">No Items</p>
-    <div id="items">
-      <div class="read-item">
-        <img src="https://via.placeholder.com/70">
-        <h2>title of items added</h2>
-      </div>
-      <div class="read-item">
-        <img src="https://via.placeholder.com/70">
-        <h2>title of items added</h2>
-      </div>
-      <div class="read-item">
-        <img src="https://via.placeholder.com/70">
-        <h2>title of items added</h2>
-      </div>
-      <div class="read-item">
-        <img src="https://via.placeholder.com/70">
-        <h2>title of items added</h2>
-      </div>
-      <div class="read-item">
-        <img src="https://via.placeholder.com/70">
-        <h2>title of items added</h2>
-      </div>
-      <div class="read-item">
-        <img src="https://via.placeholder.com/70">
-        <h2>title of items added</h2>
-      </div>
-    </div>
-  </main>
-
-  <div id="modal">
-    <input type="text" id="url" placeholder="Enter-url">
-    <button id="add-item">Add items</button>
-    <button id="close-modal">cancel</button>
-  </div> -->
   <div class="wrap-element">
     <div class="menu-app">
-      <p>Top</p>
-      <p>Top</p>
-      <p>Top</p>
-      <p>Top</p>
-      <p>Top</p>
-      <p>Top</p>
-      <p>Top</p>
+      <ul>
+        <li><a href="">
+            <span class="item">home</span>
+          </a></li>
+        <li><a href="">
+            <span class="item">Search</span>
+          </a></li>
+        <li><a href="">
+            <span class="item">Your library</span>
+          </a></li>
+        <li><a href="">
+            <span class="item">Create PlayList</span>
+          </a></li>
+        <li><a href="">
+            <span class="item">Like Song</span>
+          </a></li>
+        <li><a href="">
+            <span class="item">Your Episodes</span>
+          </a></li>
+        <li><a href="">
+            <span class="item">Artist</span>
+          </a></li>
+      </ul>
       <!-- <div class="menu">
        
       </div> -->
@@ -69,6 +44,14 @@
     <div class="menu-background">
       <div class="small-image"></div>
     </div>
+
+    <div class="song-background">
+      <img class="song-img" src="../asset/image/Rectangle_21.png">
+      <div class="song-detail">
+        <p>Song-Name</p>
+        <p>Singer-Name</p>
+      </div>
+    </div>
     <div class="list-song">
       <p>song-name</p>
       <p>Artist</p>
@@ -76,15 +59,19 @@
       <p>date-release</p>
       <p>length</p>
     </div>
-    <div class="song-background">
-      <img class="song-img" src="../asset/image/Rectangle_21.png">
-
-    </div>
     <div class="song-task-bar">
-      <div class="task-bar-music">
-        <p>Song-Name</p>
-        <p style="size: 8px;">Singer-Name</p>
+      <div class="music-player" id="music-player">
+        <button class="previous-song-button">
+          <img class="previous-song" src="../asset/icon/previous-song.png">
+        </button>
+        <button class="pause-button">
+          <img class="pause" src="../asset/icon/pause.png">
+        </button>
+        <button class="next-button">
+          <img class="next-song" src="../asset/icon/next-song.png">
+        </button>
       </div>
+      <div class="volume-player"></div>
       <div class="square"></div>
     </div>
   </div>
